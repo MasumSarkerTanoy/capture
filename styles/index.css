@@ -1,0 +1,46 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    --prm-btn: #E02C6D;
+    --font: #3A3A3A;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for all list */
+li{
+    list-style-type: none;
+}
+/* for all link */
+a{
+    text-decoration: none;
+}
+
+/* header section */
+header{
+    width: 80%;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#brand{
+color: var(--font);
+font-size: 2.4rem;
+font-weight: 700;
+}
+
+#links ul{
+display: flex;
+gap: 3.4rem;
+color: var(--font);
+font-size: 1.6rem;
+font-weight: 600;
+
+}
