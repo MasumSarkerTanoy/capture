@@ -21,10 +21,10 @@ a{
 
 /* header section */
 header{
-    width: 80%;
+    width: 82.5%;
     margin: auto;
-    border: 2px solid rebeccapurple;
 }
+/* navigation bar */
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -41,6 +41,47 @@ display: flex;
 gap: 3.4rem;
 color: var(--font);
 font-size: 1.6rem;
-font-weight: 600;
-
+font-weight: 600; 
 }
+/* banner section */
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+}
+#banner-desc{
+    width: 49%;
+}
+#banner-desc h1{
+    color: var(--font);
+    font-size: 5.2rem ;
+    font-weight: 700;
+}
+#banner-desc p{
+    color: var(--font);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 5rem 0rem;
+}
+#banner-desc button{
+    padding: 1rem 4.8rem;
+    background-color: var(--prm-btn);
+    border: none;
+    border-radius: 4rem;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+#banner-image{
+    width: 40%;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#banner-image img{
+    width: 85%;
+}
+
+
+
