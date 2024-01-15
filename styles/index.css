@@ -106,7 +106,6 @@ i{
 
 /* -----------------------Company logo section---------------------------- */
 #company-logo{
-    border: 2px solid salmon;
     width: 75%;
     margin: 10rem auto;
     display: grid;
@@ -137,6 +136,9 @@ i{
 }
 #container>section{
     background-color: #FFF;
+}
+#container>section:hover{
+    border: 3px solid gray;
 }
 #container img{
     width: 100%;
