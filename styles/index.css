@@ -129,10 +129,17 @@ i{
 }
 #container{
     width: 75%;
+    background-color: #F1E4FF;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 3rem;
+    gap: 3rem;
+}
+#container>section{
+    background-color: #FFF;
+}
+#container img{
+    width: 100%;
 }
 #container h1{
     font-family: var(--scd-font);
@@ -223,5 +230,9 @@ i{
     #company-logo{
         grid-template-columns: repeat(4,1fr);
         gap: 3rem;
+    }
+    /* ---------------------------Product section */
+    #container{
+        grid-template-columns: 1fr;
     }
 }
